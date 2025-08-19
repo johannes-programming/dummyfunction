@@ -6,7 +6,7 @@ requires = [
 
 [project]
 authors = [
-    { email = "johannes-programming@mailfence.com", name = "Johannes" },
+    { email = "johannes.programming@gmail.com", name = "Johannes" },
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -24,8 +24,8 @@ description = "This project provides the dummy function."
 keywords = []
 name = "dummyfunction"
 readme = "README.rst"
-requires-python = ">=3.8"
-version = "1.0.1"
+requires-python = ">=3.9"
+version = "1.0.2"
 
 [project.license]
 file = "LICENSE.txt"
