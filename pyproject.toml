@@ -20,15 +20,15 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = [
-    "click>=8.1.8",
-    "preparse>=0.0.12",
+    "click>=8.2,<9",
+    "preparse>=0.1.6,<2",
 ]
 description = "This project provides the dummy function."
 keywords = []
 name = "dummyfunction"
 readme = "README.rst"
-requires-python = ">=3.9"
-version = "1.0.3"
+requires-python = ">=3.11"
+version = "1.0.4"
 
 [project.license]
 file = "LICENSE.txt"
