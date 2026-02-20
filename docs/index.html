@@ -7,7 +7,8 @@
         <dl class="heading0">
             <dt>
                 <a>dummyfunction</a>
-                <p>Minor Version:
+                <p>
+                    Minor Version:
                     <select id="version">
                         <option selected>1.0</option>
                     </select>
@@ -48,13 +49,20 @@
             </dd>
         </dl>
     </body>
-    <script src="https://www.johannes-programming.online/script.js"></script>
-    <script>
-        setupLinksCorpus("dummyfunction");
-        setupInstallCorpus("dummyfunction");
-        setupTestingCorpus("dummyfunction");
-        setupLicenseCorpus("dummyfunction");
+    <script type="module">
+        import {
+            setupImpressumCorpus,
+            setupInstallCorpus,
+            setupLicenseCorpus,
+            setupLinksCorpus,
+            setupTestingCorpus,
+            addMetaAndLinkTags,
+        } from "https://www.johannes-programming.online/main.js";
         setupImpressumCorpus("dummyfunction");
+        setupInstallCorpus("dummyfunction");
+        setupLicenseCorpus("dummyfunction");
+        setupLinksCorpus("dummyfunction");
+        setupTestingCorpus("dummyfunction");
         addMetaAndLinkTags();
     </script>
 </html>
