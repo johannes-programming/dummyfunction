@@ -1,0 +1,59 @@
+Introduction
+------------
+
+This project provides the dummyfunction.
+
+Installation
+------------
+
+To install dummyfunction, you can use pip. Open your terminal and run:
+
+.. code-block:: shell
+
+    pip install dummyfunction
+
+Features
+--------
+
+``dummyfunction.dummyfunction(*args: Any, **kwargs: Any) -> None``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This function does nothing.
+
+``dummyfunction.main``
+~~~~~~~~~~~~~~~~~~~~~~
+
+This click command implements the CLI.
+
+``dummyfunction.test() -> unittest.TextTestResult``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This project can be tested through its test function.
+
+.. code-block:: python
+
+    import dummyfunction
+    dummyfunction.test()
+
+License
+-------
+
+This project is licensed under the MIT License.
+
+Links
+-----
+
+- Download: https://pypi.org/project/dummyfunction/#files
+- Index: https://pypi.org/project/dummyfunction/
+- Source: https://github.com/johannes-programming/dummyfunction/
+- Website: https://dummyfunction.johannes-programming.online/
+
+Impressum
+---------
+
+**Johannes Programming**
+
+- Name: Johannes
+- Email: johannes.programming@gmail.com
+- Homepage: https://www.johannes-programming.online/
+- Gravatar: https://www.johannes-programming.fyi/
