@@ -19,14 +19,18 @@ class TestDummyFunction(unittest.TestCase):
         try:
             dummyfunction(1, 2, 3, "test")
         except Exception as e:
-            self.fail(f"dummyfunction(1, 2, 3, 'test') raised an exception: {e}")
+            self.fail(
+                f"dummyfunction(1, 2, 3, 'test') raised an exception: {e}"
+            )
 
     def test_dummyfunction_with_kwargs(self: Self) -> None:
         "Test dummyfunction with keyword arguments."
         try:
             dummyfunction(a=1, b=2, c="test")
         except Exception as e:
-            self.fail(f"dummyfunction(a=1, b=2, c='test') raised an exception: {e}")
+            self.fail(
+                f"dummyfunction(a=1, b=2, c='test') raised an exception: {e}"
+            )
 
     def test_dummyfunction_with_args_and_kwargs(self: Self) -> None:
         "Test dummyfunction with both positional and keyword arguments."
