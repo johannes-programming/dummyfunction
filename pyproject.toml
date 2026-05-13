@@ -28,7 +28,7 @@ license-files = [
 name = "dummyfunction"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.0.8"
+version = "1.0.9"
 
 [project.urls]
 Download = "https://pypi.org/project/dummyfunction/#files"
@@ -37,11 +37,6 @@ Source = "https://github.com/johannes-programming/dummyfunction/"
 Website = "https://dummyfunction.johannes-programming.online/"
 
 [tool.mypy]
-files = [
-    ".",
-]
-overrides = [
-    { module = [], ignore_missing_imports = true },
-]
+files = []
 python_version = "3.11"
 strict = false
