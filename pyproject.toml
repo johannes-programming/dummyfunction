@@ -31,7 +31,7 @@ license-files = [
 name = "dummyfunction"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.2.0"
+version = "1.2.0.post0"
 
 [project.urls]
 Download = "https://pypi.org/project/dummyfunction/#files"
