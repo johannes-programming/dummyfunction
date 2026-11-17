@@ -1,4 +1,8 @@
-from dummyfunction import main
+__all__: list[str] = []
+
+import sys
+
+from dummyfunction.core import main
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

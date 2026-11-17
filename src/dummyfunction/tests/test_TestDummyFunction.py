@@ -1,9 +1,9 @@
+__all__: list[str] = ["TestDummyFunction"]
+
 import unittest
 from typing import Self
 
 from dummyfunction.core import dummyfunction
-
-__all__ = ["TestDummyFunction"]
 
 
 class TestDummyFunction(unittest.TestCase):
