@@ -19,8 +19,8 @@ classifiers = [
     "Typing :: Typed",
 ]
 dependencies = [
-    "click>=8.2,<9",
-    "preparse>=1.1,<2",
+    "click<9,>=8.2",
+    "preparse<2,>=1.1",
 ]
 description = "This project provides the dummy function."
 keywords = []
@@ -31,7 +31,7 @@ license-files = [
 name = "dummyfunction"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.1.4"
+version = "1.2.0"
 
 [project.urls]
 Download = "https://pypi.org/project/dummyfunction/#files"

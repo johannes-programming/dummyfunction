@@ -1,6 +1,8 @@
-from dummyfunction.core import dummyfunction, main
+__all__: list[str] = ["dummyfunction", "main", "parse_args", "run"]
 
-__all__ = ["dummyfunction", "main"]
+import sys
+
+from dummyfunction.core import dummyfunction, main, parse_args, run
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())
