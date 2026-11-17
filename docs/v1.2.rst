@@ -63,8 +63,8 @@ This click command implements the CLI.
 ``dummyfunction.tests``
 """""""""""""""""""""""
 
-``dummyfunction.tests.test() -> unittest.TextTestResult``
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``test() -> unittest.TextTestResult``
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This project can be tested through its ``test`` function.
 
