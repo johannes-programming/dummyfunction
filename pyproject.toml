@@ -18,10 +18,7 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
     "Typing :: Typed",
 ]
-dependencies = [
-    "click<9,>=8.2",
-    "preparse<2,>=1.1",
-]
+dependencies = []
 description = "This project provides the dummy function."
 keywords = []
 license = "MIT"
@@ -31,7 +28,7 @@ license-files = [
 name = "dummyfunction"
 readme = "README.rst"
 requires-python = ">=3.11"
-version = "1.2.0.post0"
+version = "1.2.0.post1"
 
 [project.urls]
 Download = "https://pypi.org/project/dummyfunction/#files"
