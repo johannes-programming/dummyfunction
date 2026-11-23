@@ -5,36 +5,58 @@ requires = [
 ]
 
 [project]
-authors = [
-    { email = "johannes.programming@gmail.com", name = "Johannes" },
+name = "dummyfunction"
+version = "1.2.0.post2"
+description = "This project provides the dummy function."
+readme = "README.rst"
+keywords = []
+license = "MIT"
+license-files = [
+    "LICENSE.txt",
 ]
+authors = [
+    { name = "Johannes", email = "johannes.programming@gmail.com" },
+]
+requires-python = ">=3.11"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
     "Natural Language :: English",
     "Operating System :: OS Independent",
     "Programming Language :: Python",
-    "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
     "Typing :: Typed",
 ]
 dependencies = []
-description = "This project provides the dummy function."
-keywords = []
-license = "MIT"
-license-files = [
-    "LICENSE.txt",
-]
-name = "dummyfunction"
-readme = "README.rst"
-requires-python = ">=3.11"
-version = "1.2.0.post1"
+urls.Download = "https://pypi.org/project/dummyfunction/#files"
+urls.Index = "https://pypi.org/project/dummyfunction/"
+urls.Source = "https://github.com/johannes-programming/dummyfunction/"
+urls.Website = "https://dummyfunction.johannes-programming.online/"
 
-[project.urls]
-Download = "https://pypi.org/project/dummyfunction/#files"
-Index = "https://pypi.org/project/dummyfunction/"
-Source = "https://github.com/johannes-programming/dummyfunction/"
-Website = "https://dummyfunction.johannes-programming.online/"
+[tool.ruff]
+line-length = 79
+lint.select = [
+    "ANN001",
+    "ANN002",
+    "ANN003",
+    "F",
+    "I",
+    "PLE0604",
+    "PLE0605",
+    "RUF022",
+    "RUF068",
+    "UP035",
+]
+
+[tool.pyproject-fmt]
+indent = 4
+keep_full_version = true
+max_supported_python = "3.15"
 
 [tool.mypy]
 files = [
